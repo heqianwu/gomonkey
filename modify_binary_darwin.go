@@ -8,7 +8,7 @@ import (
 func modifyBinary(target uintptr, bytes []byte) {
 	kkk := 88888
 	fmt.Println(kkk)
-	fmt.Println("XXXXXXX")
+	fmt.Println("VVVVVVVVV")
 	function := entryAddress(target, len(bytes))
 
 	page := entryAddress(pageStart(target), syscall.Getpagesize())
